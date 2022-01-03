@@ -1,0 +1,1 @@
+/home/hvoyvodov/source_control/github/academy-demo/environments/development/base.tfvars
