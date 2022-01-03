@@ -1,0 +1,5 @@
+ssh-bastion.conf
+.terraform
+
+*.tfstate
+*.tfstate.backup
