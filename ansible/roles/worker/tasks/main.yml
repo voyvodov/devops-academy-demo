@@ -1,0 +1,5 @@
+---
+
+- name: Check hostname
+  debug:
+    var: ansible_hostname

@@ -1,0 +1,15 @@
+- hosts: bastions
+  roles:
+    - role: bastion
+      tags: 
+        - bastion
+        - pre-run
+
+- hosts: workers
+  tasks:
+    - debug:
+        var: ansible_ssh_common_args
+  roles:
+    - role: worker
+      tags:
+        - worker
