@@ -3,3 +3,4 @@ ssh-bastion.conf
 
 *.tfstate
 *.tfstate.backup
+*.plan
